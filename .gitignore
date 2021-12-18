@@ -1,0 +1,5 @@
+# Vscode files #
+.VSCODE
+
+# Mac files #
+.DS_STORE
