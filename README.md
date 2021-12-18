@@ -20,4 +20,13 @@
 * Reduced image file sizes as the page was fairly heavy to load.
 
 ---
-Benjamin Molini Vilhunen
+## Project links
+
+- [GitHub][1]
+- [GitHub Page][2]
+
+[1]: https://github.com/D1sl/code-refactor/
+[2]: https://d1sl.github.io/code-refactor/
+
+---
+GitHub: [D1sl](https://github.com/D1sl/) 
