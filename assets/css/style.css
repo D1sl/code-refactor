@@ -41,12 +41,12 @@ header nav ul li {
     margin-left: 25px;
 }
 
-a {
+header a {
     color: #ffffff;
     text-decoration: none;
 }
 
-p {
+header p {
     font-size: 16px;
 }
 
