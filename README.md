@@ -25,8 +25,8 @@
 - [GitHub][1]
 - [GitHub Page][2]
 
-[1]: https://github.com/D1sl/code-refactor/
-[2]: https://d1sl.github.io/code-refactor/
+[1]: https://github.com/D1sl/horiseon/
+[2]: https://d1sl.github.io/horiseon/
 
 ---
 GitHub: [D1sl](https://github.com/D1sl/) 
