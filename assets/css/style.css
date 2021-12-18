@@ -1,3 +1,4 @@
+/* Global properties */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -9,6 +10,17 @@ body {
     font-family: var(--primary-fonts);
 }
 
+:root {
+    /* Properties for all primary text elements on the page */
+    --primary-text: #fff;
+    --primary-fonts: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    /* Properties for Header and Footer text elements */
+    --secondary-fonts: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    --footer-text-color: #000;
+}
+
+/* Page header */
 header {
     padding: 20px;
     font-family: var(--secondary-fonts);
@@ -24,6 +36,7 @@ header span {
     color: #d9dcd6;
 }
 
+/* Header navigation */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -46,6 +59,7 @@ header a {
     color: var(--primary-text);
 }
 
+/* Hero section */
 .hero {
     margin-bottom: 25px;
 }
@@ -57,6 +71,7 @@ header a {
     display: block;
 }
 
+/* Primary content */
 .content {
     width: 75%;
     display: inline-block;
@@ -89,6 +104,7 @@ header a {
     margin-left: 25px;
 }
 
+/* Benefits sidebar */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -114,20 +130,15 @@ header a {
     max-width: 150px;
 }
 
+/* Page footer */
 footer {
     padding: 30px;
     clear: both;
     font-family: var(--secondary-fonts);
     text-align: center;
-    color: #000;
+    color: var(--footer-text-color);
 }
 
 footer h4 {
     font-size: 20px;
-}
-
-:root {
-    --primary-text: #fff;
-    --primary-fonts: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    --secondary-fonts: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
